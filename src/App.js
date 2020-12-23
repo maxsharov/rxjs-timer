@@ -65,7 +65,7 @@ function App() {
       <Timer timePassed={timer ? timer : diff} />
       <div>
         <button onClick={onStartHandler} className="btn btn-success">
-          Start/stop
+          Start/Stop
         </button>
         <button onClick={onWaitHandler} className="btn btn-success">
           Wait
