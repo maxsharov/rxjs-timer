@@ -67,10 +67,10 @@ function App() {
         <button onClick={onStartHandler} className="btn btn-success">
           Start/Stop
         </button>
-        <button onClick={onWaitHandler} className="btn btn-success">
+        <button onClick={onWaitHandler} className="btn btn-warning">
           Wait
         </button>
-        <button onClick={onResetHandler} className="btn btn-success">
+        <button onClick={onResetHandler} className="btn btn-danger">
           Reset
         </button>
       </div>
